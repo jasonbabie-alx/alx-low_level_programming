@@ -1,15 +1,2 @@
 #!/bin/bash
-
-# Check that a C file has been specified
-if [ -z "$CFILE" ]; then
-    echo "Error: no C file specified."
-    exit 1
-fi
-
-# Generate assembly code in Intel syntax
-gcc -S -masm=intel "$CFILE"
-
-# Rename the output file
-OUTPUT_FILE=$(basename "$CFILE" .c).s
-mv "${CFILE%.*}.s" "$OUTPUT_FILE"
-
+source 100-extn
