@@ -9,6 +9,7 @@
 int main(void)
 {
 	int hundreds_digit, tens_digit, ones_digit;
+
 	for (hundreds_digit = 0; hundreds_digit <= 7; hundreds_digit++)
 	{
 		for (tens_digit = hundreds_digit + 1; tens_digit <= 8; tens_digit++)
