@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-/*main - main function
- *
+/**
+ * main - main function
+ * Description: it just works dude
  * Return: always 0
  */
-
 int main(void)
 {
 	int n;
