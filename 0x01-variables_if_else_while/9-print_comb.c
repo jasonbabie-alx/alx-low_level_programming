@@ -17,12 +17,8 @@ int main(void)
 		if (i != 9)
 		{
 			putchar(',');
-			putchar(' ');
 		}
-		else
-		{
-			putchar('$');
-		}
+		putchar(' ');
 		i++;
 	}
 	return (0);
