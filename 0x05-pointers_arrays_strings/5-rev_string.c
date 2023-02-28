@@ -7,6 +7,7 @@
  *
  * Return: void.
  */
+int _strlen(char *);
 void rev_string(char *s)
 {
 	char temp;
