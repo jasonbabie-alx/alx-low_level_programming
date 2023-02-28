@@ -8,7 +8,12 @@
 void print_array(int *a, int n)
 {
 	int i;
-	for (i = 0; i < n; i++)
+	
+	i = 0;
+	while (i < n - 1)
 	{
 		_putchar(a + i);
+		_putchar(',');
+		_putchar(' ');
 	}
+	_putchar(a + n - 1);
